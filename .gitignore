@@ -1,0 +1,23 @@
+
+# Create or edit .gitignore
+touch .gitignore
+
+# Open .gitignore in a text editor and add the following line
+node_modules/
+
+# Save the .gitignore file
+
+# Stage and commit the .gitignore file
+git add .gitignore
+git commit -m "Add .gitignore to exclude node_modules"
+
+# Continue with staging and committing your other changes
+git add .
+git commit -m "Description of your changes"
+
+# Push your changes to the remote repository
+git push origin main
+
+
+/node_module
+.env
